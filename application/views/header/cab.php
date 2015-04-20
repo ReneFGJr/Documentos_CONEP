@@ -18,6 +18,7 @@ echo '<link rel="STYLESHEET" href="'.base_url('css/prj_style.css').'">'.$cr;
 echo '<link rel="STYLESHEET" href="'.base_url('css/fonts_cicpg.css').'">'.$cr;
 echo '<link rel="STYLESHEET" href="'.base_url('css/fonts_roboto.css').'">'.$cr;
 echo '<link rel="STYLESHEET" href="'.base_url('css/scheme_default.css').'">'.$cr;
+echo '<link rel="STYLESHEET" href="'.base_url('css/form_sisdoc.css').'">'.$cr;
 
 echo '<script type="text/javascript" src="'.base_url('js/jquery.js').'"></script>'.$cr;
 

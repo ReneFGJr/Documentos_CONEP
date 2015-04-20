@@ -9,6 +9,26 @@ class geds extends CI_model {
 		$row = $query -> row();
 		return ($row);
 	}
+	
+	function save($data)
+		{
+			echo 'SAVED';
+		}
+	
+	function cp()
+		{
+			$cp = array();
+			array_push($cp,array('$H8','id_doc','',False,True));
+			/* String size 100 required */
+			array_push($cp,array('$S100','doc_descreicao','Descrição do documento',True,True));
+			/* String size 100 required */
+			array_push($cp,array('$S100','doc_folder','Pasta de armazenamento',True,True));
+			
+			/* Botao */
+			array_push($cp,array('$B8','','Gravar >>>',False,True));
+
+			return($cp);
+		}
 
 	/* Prepara dados */
 	function prepara($row) {
